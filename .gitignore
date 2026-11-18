@@ -1,0 +1,65 @@
+# Generated research and private source material
+/research/
+/data/
+/private/
+/local/
+/captures/
+/screenshots/
+/downloads/
+/output/
+/tmp/
+/temp/
+/logs/
+*.log
+*.tmp
+*.bak
+*.backup
+
+# Secrets, authentication state and machine-local settings
+.env
+.env.*
+!.env.example
+**/secrets/
+**/.secrets/
+secrets.*
+credentials.*
+*credential*.json
+*token*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*cookie*.json
+*storage-state*.json
+.netrc
+.npmrc
+.pypirc
+/skill.local.yaml
+/config.local.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local agent/session state
+.codex/

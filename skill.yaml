@@ -1,0 +1,26 @@
+name: cme-span-ri-values
+display_name: CME SPAN RI VALUES
+version: "0.1.0"
+description: >-
+  A self-contained research skill for NQ/MNQ and ES/MES Risk Interval candidates
+  using official CME margin evidence, exact calculations and separate actual-result comparisons.
+author: RANX
+entrypoint: SKILL.md
+status: experimental
+compatibility:
+  instructions: Agents that can read Markdown skills and save local JSON and Markdown records.
+  browser: A documented built-in browser with access to official CME HTTPS pages.
+  calculation: Python 3.9 or newer, using fractions and zoneinfo with IANA timezone data.
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+tags:
+  - cme
+  - span
+  - risk-interval
+  - nq
+  - es
+  - futures-research
+  - agent-skill
+  - evidence
